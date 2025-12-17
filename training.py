@@ -46,7 +46,7 @@ def train_and_export():
     model.fit(
         X_train,
         y_train,
-        epochs=10,
+        epochs=5,
         batch_size=32,
         validation_split=0.2,
         callbacks=[early_stop]
